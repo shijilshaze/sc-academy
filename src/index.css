@@ -1,0 +1,16 @@
+:root {
+  --bg-color: #fcfbf9;       /* Soft off-white background */
+  --text-main: #1a1a1a;      /* Dark charcoal for high readability */
+  --accent-maroon: #7a1c1c;  /* Deep rich maroon/red from the video */
+  --accent-light: #f4ecec;   /* Soft tinted background card color */
+  --font-heading: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  font-family: var(--font-heading);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
