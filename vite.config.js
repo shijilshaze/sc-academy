@@ -1,11 +1,10 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  base: '/sc-academy/', // ഇത് ഇവിടെ ചേർക്കുക
   resolve: {
-    // Forces every package (including framer-motion and lucide-react)
-    // to use the single React copy from your project.
     dedupe: ["react", "react-dom"],
   },
   optimizeDeps: {
